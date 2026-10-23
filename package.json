@@ -1,0 +1,19 @@
+{
+  "name": "graph-templates",
+  "version": "0.1.0",
+  "description": "Deterministic agent pipelines: stitch do/verify steps in a config file, every node gated by an overridable default contract.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "graph": "src/cli.ts" },
+  "exports": { ".": "./src/index.ts" },
+  "files": ["src", "templates", "skill"],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "demo": "cd templates/pipeline && bash examples/run-demo.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}

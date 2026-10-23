@@ -1,0 +1,9 @@
+node_modules/
+# run workspaces and the demo tracker hold real data: never commit them
+**/runs/
+**/tracker.jsonl
+# your own private-string blocklist for the verify graph
+verify/private-patterns.txt
+*.env
+!*.env.example
+.DS_Store
