@@ -1,0 +1,6 @@
+{
+  "claims": [
+    { "text": "Bun is an all-in-one toolkit for JavaScript and TypeScript apps", "source": "https://bun.sh/docs" },
+    { "text": "It includes a runtime, package manager, test runner and bundler", "source": "https://bun.sh/docs" }
+  ]
+}

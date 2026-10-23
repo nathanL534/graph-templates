@@ -1,0 +1,7 @@
+node_modules/
+# run workspaces and the tracker hold real data: never commit them
+runs/
+tracker.jsonl
+*.env
+!*.env.example
+.DS_Store

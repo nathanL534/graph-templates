@@ -1,0 +1,14 @@
+{
+  "name": "my-graph",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "plan": "graph plan",
+    "run": "graph run",
+    "status": "graph status",
+    "demo": "bash examples/run-demo.sh"
+  },
+  "devDependencies": {
+    "graph-templates": "__GRAPH_TEMPLATES_SPEC__"
+  }
+}

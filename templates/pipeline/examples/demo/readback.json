@@ -1,0 +1,5 @@
+{
+  "fields": [
+    { "field": "target/README-section.md", "expected": "matches draft.md", "actual": "matches draft.md" }
+  ]
+}
